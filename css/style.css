@@ -104,6 +104,7 @@ body .container {
 body .box {
   height: 100vh;
   max-height: 1200px;
+  min-height: 600px;
 }
 
 body h2 {
@@ -111,30 +112,14 @@ body h2 {
   font-size: 36px;
 }
 
-@media (max-width: 1131px) {
-  .container {
-    max-width: 970px;
-  }
-}
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 750px;
-  }
-}
-
-@media (max-width: 767px) {
-  .container {
-    max-width: none;
-  }
-}
-
 header {
+  width: 100vw;
   background-image: url(../files/Rectangle.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
   max-height: 1000px;
+  min-height: 600px;
 }
 
 header .line {
@@ -160,6 +145,19 @@ header .line {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.head .navigation__burger {
+  display: none;
+  background-color: #9e8ef7;
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.head .navigation__burger img {
+  height: 40px;
+  width: 40px;
 }
 
 .head .navigation nav {
@@ -471,6 +469,7 @@ header .line {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 69px;
+  padding-top: 40px;
 }
 
 .third__up h2 {
@@ -497,6 +496,7 @@ header .line {
 
 .third__down .down__block img {
   margin-bottom: 30px;
+  width: 300px;
 }
 
 .third__down .down__block h3 {
@@ -756,4 +756,49 @@ footer {
           align-items: center;
   color: grey;
   border-top: 1px #e0e0e0 solid;
+}
+
+@media (max-width: 1131px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 500;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    max-width: none;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: none;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }

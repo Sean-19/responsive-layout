@@ -1,25 +1,19 @@
-<!-- Повідомляємо браузеру як варто обробляти дану сторінку -->
 <!DOCTYPE html>
-<!-- Оболочка документа, вказуємо мову сторінки -->
-<html lang = "ua">
-    <head>
-        <!-- Заголовок сторінки в браузері -->
-        <title>TimelessCO</title>
-        <!-- Лінк на css -->
-        <link rel="stylesheet" href="css/style.css">
-         <!-- Кодировка сторінки -->
-        <meta charset="UTF-8" >
-        <meta name="keywords" content="Ключові слова">
-        <meta name="description" content="Опис сторінки">
-        <meta name="vierport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    </head>
- <!-- тіло сторінки -->
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
     <header>
         <div class="line"></div>
         <div class="container head">
             <div class="navigation">
                 <nav>
+                    <div class="navigation__burger"><a href="index.html"><img src="files/menu.svg" alt=""></a></div>
                     <ul>
                         <li><a href="index.html">Головна</a></li>
                         <li><a href="index.html">Наші проєкти</a></li>
@@ -44,9 +38,8 @@
         <div class="box box1">
             <div class="container first">
                 <div class="first__media media">
-                    <h2>Ми створюємо мобільні додатки для крупних корпорацій</h2>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
-
+                    <h2 class="media__h">Ми створюємо мобільні додатки для крупних корпорацій</h2>
+                    <p class="media__p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
                     <div class="media__block">
                         <div class="media__column">
                           <div class="media__circle">
@@ -95,98 +88,98 @@
             </div>
         </div>
         <div class="box box2">
-            <div class="container second">
-                <div class="second__up up">
-                    <div class="up__text">
-                        <h2>Високі стандарти розробки</h2>
-                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
-                        <a href="index.html">Детальніше про компанію</a>
+          <div class="container second">
+              <div class="second__up up">
+                  <div class="up__text">
+                      <h2>Високі стандарти розробки</h2>
+                      <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+                      <a href="index.html">Детальніше про компанію</a>
+                  </div>
+                  <div class="up__img"><img src="files/secondimg.png" alt=""></div>
+              </div>
+              <div class="second__down">
+                  <div class="second__mini mini"> 
+                      <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
+                      <div class="mini__down">Our project</div>  
+                    
                     </div>
-                    <div class="up__img"><img src="files/secondimg.png" alt=""></div>
-                </div>
-                <div class="second__down">
                     <div class="second__mini mini"> 
-                        <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
-                        <div class="mini__down">Our project</div>  
-                      
-                      </div>
-                      <div class="second__mini mini"> 
-                        <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
-                        <div class="mini__down">Our project</div>  
-                      
-                      </div>
-                      <div class="second__mini mini"> 
-                        <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
-                        <div class="mini__down">Our project</div>  
-                      
-                      </div>
-                      <div class="second__mini mini"> 
-                        <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
-                        <div class="mini__down">Our project</div>  
-                      
-                      </div>
-                      <div class="second__mini mini"> 
-                        <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
-                        <div class="mini__down">Our project</div>  
-                      
-                      </div>
-                </div>
-            </div>
-        </div>
-        <div class="box box3">
-          <div class="container third">
-            <div class="third__up">
-              <h2>Наші роботи, на яких ми спеціалізуємось</h2>
-              <form action="index.html">
-                <button>Всі послуги</button>
-              </form>
-            </div>
-            <div class="third__down">
-              <div class="down__block">
-                <img src="files/thirddown.png" alt="">
-                <h3><span>01.</span>Дослідження й пакування</h3>
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <a href="index.html">Детальніше</a>
+                      <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
+                      <div class="mini__down">Our project</div>  
+                    
+                    </div>
+                    <div class="second__mini mini"> 
+                      <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
+                      <div class="mini__down">Our project</div>  
+                    
+                    </div>
+                    <div class="second__mini mini"> 
+                      <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
+                      <div class="mini__down">Our project</div>  
+                    
+                    </div>
+                    <div class="second__mini mini"> 
+                      <div class="mini__up"><img src="files/web-programming.svg" alt=""> <p>125</p></div>  
+                      <div class="mini__down">Our project</div>  
+                    
+                    </div>
               </div>
-              <div class="down__block block2">
-                <img src="files/thirddown.png" alt="">
-                <h3><span>01.</span>Дослідження й пакування</h3>
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <a href="index.html">Детальніше</a>
-              </div>
-              <div class="down__block">
-                <img src="files/thirddown.png" alt="">
-                <h3><span>01.</span>Дослідження й пакування</h3>
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <a href="index.html">Детальніше</a>
-              </div>
-            </div>
           </div>
-        </div>
-        <div class="box box4">
-          <div class="container fourth">
-            <h2>Наші проєкти</h2>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
-            <div class="fourth__img">
-              <img src="files/Foutth.png" alt="">
-              <img src="files/Foutth.png" alt="">
-              <img src="files/Foutth.png" alt="">
-              <img src="files/Foutth.png" alt="">
-            </div>
+      </div>
+      <div class="box box3">
+        <div class="container third">
+          <div class="third__up">
+            <h2>Наші роботи, на яких ми спеціалізуємось</h2>
             <form action="index.html">
-              <button>Всі проєкти</button>
+              <button>Всі послуги</button>
             </form>
           </div>
-        </div>
-        <div class="box box5">
-          <div class="container 
-          fifth">
-            <h2>Відео про нашу компанію</h2>
-            <p class="txt">Просто подивіться як ми працюємо</p>
-            <div class="fifth__video"><video height="430" width="970" controls poster="files/preview.png" src="files/video.mp4"></video>
+          <div class="third__down">
+            <div class="down__block">
+              <img src="files/thirddown.png" alt="">
+              <h3><span>01.</span>Дослідження й пакування</h3>
+              <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+              <a href="index.html">Детальніше</a>
+            </div>
+            <div class="down__block block2">
+              <img src="files/thirddown.png" alt="">
+              <h3><span>01.</span>Дослідження й пакування</h3>
+              <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+              <a href="index.html">Детальніше</a>
+            </div>
+            <div class="down__block">
+              <img src="files/thirddown.png" alt="">
+              <h3><span>01.</span>Дослідження й пакування</h3>
+              <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+              <a href="index.html">Детальніше</a>
             </div>
           </div>
         </div>
+      </div>
+      <div class="box box4">
+        <div class="container fourth">
+          <h2>Наші проєкти</h2>
+          <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+          <div class="fourth__img">
+            <img src="files/Foutth.png" alt="">
+            <img src="files/Foutth.png" alt="">
+            <img src="files/Foutth.png" alt="">
+            <img src="files/Foutth.png" alt="">
+          </div>
+          <form action="index.html">
+            <button>Всі проєкти</button>
+          </form>
+        </div>
+      </div>
+      <div class="box box5">
+        <div class="container 
+        fifth">
+          <h2>Відео про нашу компанію</h2>
+          <p class="txt">Просто подивіться як ми працюємо</p>
+          <div class="fifth__video"><video controls poster="files/preview.png" src="files/video.mp4"></video>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="box">
       <div class="container footer">
@@ -237,5 +230,6 @@
 
       </div>
     </footer>
-  </body>
+    
+</body>
 </html>
